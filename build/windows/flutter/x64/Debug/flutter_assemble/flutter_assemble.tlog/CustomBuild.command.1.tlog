@@ -1,0 +1,28 @@
+^C:\USERS\USER\DESKTOP\VIDA\BUILD\WINDOWS\CMAKEFILES\6AF29FB3D5353E43E5DDFFC8589B06A5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\Downloads\flutter_windows_3.0.1-stable PROJECT_DIR=C:\Users\User\Desktop\vida FLUTTER_ROOT=C:\Users\User\Downloads\flutter_windows_3.0.1-stable FLUTTER_EPHEMERAL_DIR=C:\Users\User\Desktop\vida\windows\flutter\ephemeral PROJECT_DIR=C:\Users\User\Desktop\vida FLUTTER_TARGET=C:\Users\User\Desktop\vida\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\User\Desktop\vida\.dart_tool\package_config.json C:/Users/User/Downloads/flutter_windows_3.0.1-stable/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\VIDA\BUILD\WINDOWS\CMAKEFILES\627EDD070EF9EF649AA865E06DCFC59F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\VIDA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/vida/windows -BC:/Users/User/Desktop/vida/build/windows --check-stamp-file C:/Users/User/Desktop/vida/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
